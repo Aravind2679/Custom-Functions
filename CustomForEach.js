@@ -5,9 +5,9 @@ Array.prototype.myForEach = function(callback) {
 }
 
 const numbers = [2, 4, 6, 8, 10, "Hai"];
-console.log("Before myForEach: " + numbers);
+console.log("Before calling myForEach: " + numbers);
 numbers.myForEach(multiplyNumber);
-console.log("after myForEach: " + numbers);
+console.log("After  calling myForEach: " + numbers);
 
 function multiplyNumber(currentValue, index, array) {
     //console.log(typeof(currentValue));
