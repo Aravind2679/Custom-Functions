@@ -18,3 +18,7 @@ function VoterAge(currentValue, currentIndex) {
     console.log(currentValue + " " + currentIndex);
     return currentValue >= 18;
 }
+
+function addd() {
+
+}
